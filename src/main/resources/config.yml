@@ -1,0 +1,16 @@
+blocked-words:
+  - 'meow'
+
+# Should players with the 'chatfilter.bypass' permission be able to bypass the filter?
+bypass-permission: true
+
+# Should the message be stopped from sending?
+cancel-message: false
+
+# If you don't cancel the message sending, what should the filtered message be replaced with?
+replacement: '<stars>' # <stars> will replace each character with a *
+
+# Should a message be sent to the player when they say a blocked word?
+message:
+  send: true
+  message: '&cYour message has been filtered for containing &f&n<word>'
