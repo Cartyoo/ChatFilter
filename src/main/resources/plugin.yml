@@ -1,0 +1,6 @@
+name: ChatFilter
+version: '1.0.0'
+main: xyz.herberto.chatFilter.ChatFilter
+api-version: '1.21'
+authors: [ herberto ]
+website: https://herberto.xyz
